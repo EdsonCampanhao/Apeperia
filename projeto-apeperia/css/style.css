@@ -1,0 +1,454 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --branco: #ffffff;
+
+}
+
+.logo {
+    width: 375px;
+    display: flex;
+    justify-content: center;
+    background-color: #00161C;
+
+}
+
+.navegacao {
+
+    width: 375px;
+
+
+    padding: 20px 0;
+    background-color: #00161C;
+    font-size: 17px;
+    text-align: center;
+    border-bottom: 1px solid #103D4A;
+
+
+
+}
+
+.navegacao__opcao {
+    display: inline;
+    font-family: 'Open Sans';
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px;
+    line-height: 40px;
+}
+
+.caixa {
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    background-color: #00161C;
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+}
+
+.caixa__titulo {
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    font-family: 'Montserrat';
+    margin: 0 30px;
+
+    padding: 20px;
+}
+
+.caixa__legenda {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    margin: 0 10px;
+    padding-bottom: 20px;
+}
+
+.caixa__botao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 330px;
+    height: 50px;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    text-decoration: none;
+
+    border-radius: 5px;
+    margin-bottom: 40px;
+
+}
+
+.titulo {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700px;
+    font-family: 'Montserrat';
+    color: #4f4c4c;
+}
+
+.destaque {
+    background-color: #DFE3F5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 375px;
+
+}
+
+.destaque__titulo {
+    padding: 37px 0;
+    font-family: 'Montserrat';
+}
+
+.destaque__caixa__img {
+    height: 183px;
+}
+
+.destaque__caixa__legenda {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 19px;
+    padding: 10px 27px 34px 23px;
+
+}
+
+.destaque__botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 330px;
+    height: 50px;
+    color: #B72E2E;
+    border: 1px solid #B72E2E;
+    border-radius: 5px;
+    margin-bottom: 32px;
+}
+
+.qualidades {
+    width: 375px;
+
+
+}
+
+.qualidades__box {
+    display: flex;
+    flex-direction: column;
+}
+
+.qualidades__box__divisao {
+    width: 200px;
+    margin: 50px 205px 10px 61px;
+}
+
+.qualidades__box__icone {
+    display: inline;
+}
+
+/*  STYLE PARA              
+#titulo__quimica{
+    width: 200px;
+} */
+.qualidades__box__titulo {
+    color: #4F4C4C;
+    display: inline;
+    vertical-align: 14px;
+    padding-left: 10px;
+}
+
+.qualidades__box__legenda {
+    font-size: 16px;
+    font-weight: 400;
+    color: #4F4C4C;
+    font-family: 'Open Sans';
+    grid-area: 2/1/2/3;
+
+    padding: 0 73px 0 103px;
+}
+
+.qualidades__sobre {
+    margin: 133px 0 0 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.qualidades__sobre__titulo {
+    padding-bottom: 23px;
+}
+
+.qualidades__sobre__legenda {
+    font-size: 16px;
+    color: #4F4C4C;
+    font-weight: 400;
+    margin: 0 52px 16px 23px;
+
+}
+
+.qualidades__sobre__icones {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 19px;
+}
+
+.ultima-legenda {
+    margin-bottom: 64px;
+}
+
+.planos {
+    display: flex;
+    flex-direction: column;
+    background-color: #F7F4F4;
+
+}
+
+.planos__titulo {
+    margin: 45px 0 23px 0;
+}
+
+.planos__box {
+    display: flex;
+    flex-direction: column;
+    margin: 0 37px 32px 38px;
+    background-color: var(--branco);
+    background: #FFFFFF;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.063);
+    border-radius: 5px;
+
+}
+
+.planos__box__titulo {
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+    border-bottom: 1px solid #DFE3E5;
+    padding: 13px 0 12px 0;
+
+}
+
+.plano-start {
+    color: #56CCF2;
+
+}
+
+.preco-start {
+    color: #56CCF2;
+    font-weight: 700;
+    font-size: 48px;
+    text-align: center;
+    margin: 19px 0 29px 0;
+}
+
+.botao-start {
+    color: #56CCF2;
+    text-decoration: none;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    width: 210px;
+    height: 45px;
+    margin-left: 45px;
+    margin: 16px 45px 16px;
+}
+
+.plano-ultra {
+    color: #B04CD9;
+}
+
+.preco-ultra {
+    color: #B04CD9;
+    font-weight: 700;
+    font-size: 48px;
+    text-align: center;
+    margin: 19px 0 29px 0;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+
+}
+
+.botao-ultra {
+    color: #B04CD9;
+    text-decoration: none;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    width: 210px;
+    height: 45px;
+    margin: 16px 45px 16px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+}
+
+.plano-mega {
+    color: #E33B3B;
+}
+
+.preco-mega {
+    color: #E33B3B;
+    font-weight: 700;
+    font-size: 48px;
+    text-align: center;
+    margin: 19px 0 29px 0;
+}
+
+.botao-mega {
+    color: #E33B3B;
+    text-decoration: none;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    width: 210px;
+    height: 45px;
+    margin: 16px 45px 16px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+}
+
+.plano__box__beneficios {
+    color: #666666;
+    margin-left: 45px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+
+}
+
+.contatos {
+    width: 375px;
+}
+
+.contatos__box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.contatos__box__titulo {
+    margin: 29px 0 20px 0;
+}
+
+.contatos__box__legenda {
+    margin-bottom: 19px;
+}
+
+.contatos__box__botao {
+    text-decoration: none;
+    color: #4F4C4C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #4F4C4C;
+    border-radius: 5px;
+    width: 330px;
+    height: 50px;
+    margin: 0 0 61px 0;
+}
+
+.contatos__empresa {
+    text-align: center;
+
+}
+
+.contatos__empresa__titulo {
+    color: #4F4C4C;
+    font-size: 24px;
+    margin-bottom: 32px;
+}
+
+.contatos__empresa__legenda {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #666666;
+
+}
+
+.contatos__empresa__endereco {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 31px;
+    text-align: center;
+    color: #666666;
+    margin: 35px 0 35px 0;
+
+}
+
+.contatos__empresa__numero {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 26px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #666666;
+
+}
+
+.contatos__empresa__email {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 35px;
+    /* identical to box height, or 182% */
+
+    text-align: center;
+
+    color: #0084FF;
+    margin-bottom: 42px ;
+
+}
+.contatos__video{
+    width: 375px;
+    height: 210px;
+    margin-bottom: 25px;
+}
+footer{
+     background-color: #333333;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+.logo__img{
+    margin: 42px 0 56px 0;
+
+}
+.rodape__icones{
+    display: flex;
+    justify-content: space-between;
+    width: 195px;
+}
+#navegacao-footer{
+    background-color: #333333;
+    
+}
